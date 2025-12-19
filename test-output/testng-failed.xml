@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.test.Attributes">
+      <class name="org.test.assertDemo">
         <methods>
-          <include name="Logout"/>
+          <include name="createNewAccountIsEnabled"/>
+          <include name="verifyElementText"/>
+          <include name="browserSetup"/>
         </methods>
-      </class> <!-- org.test.Attributes -->
+      </class> <!-- org.test.assertDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

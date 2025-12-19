@@ -1,99 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="5" passed="3" failed="1" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-18T08:50:41 IST" name="Default suite" finished-at="2025-12-18T08:50:43 IST" duration-ms="2066">
+  <suite started-at="2025-12-19T06:22:38 IST" name="Default suite" finished-at="2025-12-19T06:23:00 IST" duration-ms="22208">
     <groups>
     </groups>
-    <test started-at="2025-12-18T08:50:41 IST" name="Default test" finished-at="2025-12-18T08:50:43 IST" duration-ms="2066">
-      <class name="org.test.Attributes">
-        <test-method signature="Login()[pri:-2, instance:org.test.Attributes@459e9125]" started-at="2025-12-18T08:50:41 IST" name="Login" finished-at="2025-12-18T08:50:41 IST" duration-ms="9" status="PASS">
-          <exception class="java.lang.ArithmeticException">
-            <message>
-              <![CDATA[/ by zero]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.ArithmeticException: / by zero
-at org.test.Attributes.Login(Attributes.java:10)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.ArithmeticException -->
+    <test started-at="2025-12-19T06:22:38 IST" name="Default test" finished-at="2025-12-19T06:23:00 IST" duration-ms="22208">
+      <class name="org.test.assertDemo">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.test.assertDemo@4802796d]" started-at="2025-12-19T06:22:38 IST" name="browserSetup" finished-at="2025-12-19T06:22:40 IST" duration-ms="2351" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Login -->
-        <test-method signature="homepage()[pri:-1, instance:org.test.Attributes@459e9125]" started-at="2025-12-18T08:50:41 IST" name="homepage" description="Login function" finished-at="2025-12-18T08:50:41 IST" depends-on-methods="org.test.Attributes.Login" duration-ms="2" status="PASS">
+        </test-method> <!-- browserSetup -->
+        <test-method signature="incorrectPasswordVerification()[pri:-2, instance:org.test.assertDemo@4802796d]" started-at="2025-12-19T06:22:40 IST" name="incorrectPasswordVerification" finished-at="2025-12-19T06:22:44 IST" duration-ms="3207" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- homepage -->
-        <test-method signature="SearchPage()[pri:0, instance:org.test.Attributes@459e9125]" started-at="2025-12-18T08:50:41 IST" name="SearchPage" finished-at="2025-12-18T08:50:41 IST" duration-ms="5" status="PASS">
+        </test-method> <!-- incorrectPasswordVerification -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.test.assertDemo@4802796d]" started-at="2025-12-19T06:22:44 IST" name="browserSetup" finished-at="2025-12-19T06:22:46 IST" duration-ms="2094" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- SearchPage -->
-        <test-method signature="Logout()[pri:2, instance:org.test.Attributes@459e9125]" started-at="2025-12-18T08:50:41 IST" name="Logout" finished-at="2025-12-18T08:50:43 IST" duration-ms="2006" status="FAIL">
-          <exception class="org.testng.internal.thread.ThreadTimeoutException">
-            <message>
-              <![CDATA[Method org.test.Attributes.Logout() didn't finish within the time-out 2000]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method org.test.Attributes.Logout() didn't finish within the time-out 2000
-at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:400)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:310)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:696)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
+        </test-method> <!-- browserSetup -->
+        <test-method signature="loginTitleVerification()[pri:-1, instance:org.test.assertDemo@4802796d]" started-at="2025-12-19T06:22:46 IST" name="loginTitleVerification" finished-at="2025-12-19T06:22:46 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Logout -->
-      </class> <!-- org.test.Attributes -->
+        </test-method> <!-- loginTitleVerification -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.test.assertDemo@4802796d]" started-at="2025-12-19T06:22:46 IST" name="browserSetup" finished-at="2025-12-19T06:22:48 IST" duration-ms="2110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="createNewAccountIsEnabled()[pri:0, instance:org.test.assertDemo@4802796d]" started-at="2025-12-19T06:22:48 IST" name="createNewAccountIsEnabled" finished-at="2025-12-19T06:22:49 IST" duration-ms="1068" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccountIsEnabled -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.test.assertDemo@4802796d]" started-at="2025-12-19T06:22:49 IST" name="browserSetup" finished-at="2025-12-19T06:22:53 IST" duration-ms="4585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="forgottonPasswordIsEnabled()[pri:1, instance:org.test.assertDemo@4802796d]" started-at="2025-12-19T06:22:53 IST" name="forgottonPasswordIsEnabled" finished-at="2025-12-19T06:22:57 IST" duration-ms="3992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgottonPasswordIsEnabled -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:org.test.assertDemo@4802796d]" started-at="2025-12-19T06:22:57 IST" name="browserSetup" finished-at="2025-12-19T06:23:00 IST" duration-ms="2693" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="verifyElementText()[pri:2, instance:org.test.assertDemo@4802796d]" started-at="2025-12-19T06:23:00 IST" name="verifyElementText" finished-at="2025-12-19T06:23:00 IST" duration-ms="49" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyElementText -->
+      </class> <!-- org.test.assertDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

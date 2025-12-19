@@ -15,7 +15,7 @@ public class Attributes {
 		System.out.println("It is a Homepage Functionality");
 	}
 	
-	@Test(priority=1, enabled=false)
+	@Test(priority=1, enabled=true)
 	private void productPage() {
 		System.out.println("It is a Productpage Functionality");
 	}
@@ -28,6 +28,6 @@ public class Attributes {
 	@Test(priority=2, timeOut=2000)
 	private void Logout() throws InterruptedException {
 		System.out.println("It is a Logout Functionality");
-		Thread.sleep(2000);
+		 //Thread.sleep(2000);
 	}
 }
