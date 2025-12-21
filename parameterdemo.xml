@@ -2,10 +2,11 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="5" name="Test">
+  <parameter name="page" value="Facebook"></parameter>
+  <parameter name="user" value="agalyamvel@gmail.com"></parameter>
+  <parameter name="pass" value="prem123"></parameter>
     <classes>
-      <class name="org.test.annotations"/>
-      <class name="org.test.assertDemo"/>
-      <class name="org.test.Attributes"/>
+      <class name="org.test.parametersDemo"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
